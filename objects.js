@@ -10,7 +10,7 @@ function updatePlaylist(thePlaylist, theaArtistName, theSongTitle){
 }
 
 function removeFromPlaylist(thePlaylist, theaArtistName){
-  console.log(thePlaylist.theaArtistName);
+  console.log(thePlaylist.[theaArtistName]);
   // console.log(`first variable is: ${thePlaylist}. second variable is: ${theaArtistName}.`);
   // delete thePlaylist.kanye;
   // return thePlaylist;
