@@ -11,6 +11,6 @@ function updatePlaylist(thePlaylist, theaArtistName, theSongTitle){
 
 function removeFromPlaylist(thePlaylist, theaArtistName){
   console.log(thePlaylist);
-  delete thePlaylist.theaArtistName;
+  delete thePlaylist.kanye;
   return thePlaylist;
 }
