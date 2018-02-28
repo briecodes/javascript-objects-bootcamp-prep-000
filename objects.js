@@ -4,13 +4,13 @@ var playlist = {artist: ''};
 //   return Object.assign({}, thePlaylist, {[theaArtistName]: theSongTitle});
 // }
 
-function updatePlaylist(obj, key, value){
-  obj[key] = value;
-  return obj;
+function updatePlaylist(thePlaylist, theaArtistName, theSongTitle){
+  thePlaylist[theaArtistName] = theSongTitle;
+  return thePlaylist;
 }
 
-function removeFromPlaylist(obj, key){
-  console.log(obj[key]);
-  delete obj[key];
-  return obj;
+function removeFromPlaylist(thePlaylist, theaArtistName){
+  console.log(`first variable is: ${thePlaylist}. second variable is: ${theaArtistName}.`);
+  delete thePlaylist.kanye;
+  return thePlaylist;
 }
