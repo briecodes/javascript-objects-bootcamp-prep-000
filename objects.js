@@ -9,9 +9,8 @@ function updatePlaylist(obj, key, value){
   return obj;
 }
 
-function removeFromPlaylist(thePlaylist, theaArtistName){
-  console.log(thePlaylist[theaArtistName]);
-  // console.log(`first variable is: ${thePlaylist}. second variable is: ${theaArtistName}.`);
-  // delete thePlaylist.kanye;
-  // return thePlaylist;
+function removeFromPlaylist(obj, key){
+  console.log(obj[key]);
+  delete obj.key;
+  return obj;
 }
