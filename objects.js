@@ -11,7 +11,6 @@ function updatePlaylist(thePlaylist, theaArtistName, theSongTitle){
 
 function removeFromPlaylist(thePlaylist, theaArtistName){
   console.log(`first variable is: ${thePlaylist}. second variable is: ${theaArtistName}.`);
-  console.log(`the global varaible is: ${playlist}.`);
   // delete thePlaylist.kanye;
   // return thePlaylist;
 }
